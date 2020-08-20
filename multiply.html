@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        document.write("<table border='1px'>");
+
+            for(let i = 1; i < 4; i++) {
+            
+                document.write("<tr style='height:30px;'>");
+            
+                for(let j = 1; j < 5; j++) {
+            
+                    document.write("<td style='width:30px;'>" + i+","+ j +"</td>");
+                }
+                document.write("</tr>");
+            }
+            
+            document.write("</table>");
+    </script>
+    
+</body>
+</html>
